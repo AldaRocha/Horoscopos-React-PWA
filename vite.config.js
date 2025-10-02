@@ -11,7 +11,7 @@ export default defineConfig({
     },
     injectRegister: 'auto',
     includeAssets: ['/android', '/ios', '/windows11'],
-    manifest:{
+    manifest: {
       name: 'Horoscopos React',
       short_name: 'Horoscopos REACT',
       description: 'React and Vite app + PWA',
