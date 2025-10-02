@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import Titulo from './components/Titulo'
-import Formulario from './components/Formulario'
-import Resultado from './components/Resultado'
+import Titulo from './components/Titulo.jsx'
+import Formulario from './components/Formulario.jsx'
+import Resultado from './components/Resultado.jsx'
 
 const App = () => {
   const [datos, setDatos] = useState(null);
